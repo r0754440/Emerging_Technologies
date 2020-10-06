@@ -4,8 +4,8 @@ import requests  #voor de requests
 import datetime  #voor de timestamp
 
 timestamp = datetime.datetime.now().strftime('%Y-%m-%d%H:%M:%S')
-PUBLIC_KEY = "3b647296b973547fcc40f00249c5be8e"
-PRIVATE_KEY = "9692ed4ee5bc8e6ce16eb97a384e6c5d99ef4580"
+PUBLIC_KEY = "**************"
+PRIVATE_KEY = "*************"
 main_api = "https://gateway.marvel.com:443/v1/public/characters"
 
 def hash_params():
